@@ -4,7 +4,7 @@
 </script>
 
 <!-- HTML -->
-<section class="h-fit flex flex-col gap-5 flex-wrap mx-2">
+<section class="h-fit flex flex-col gap-5 flex-wrap mx-2" id="services">
 	<div>
 		<Heading tag="h3" customSize="text-5xl font-extrabold text-center">Services</Heading>
 	</div>
