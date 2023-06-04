@@ -6,12 +6,15 @@
 	import Contact from '$lib/components/sections/contact.svelte';
 
 	// Importing components
-	import ScrollToTop from './../lib/components/buttons/scrollToTop.svelte';
+	import Divider from '$lib/components/divider/sectionDivider.svelte';
 </script>
 
 <div class="flex flex-col gap-40 h-full">
 	<About />
+	<Divider />
 	<Projects />
+	<Divider />
 	<Service />
+	<Divider />
 	<Contact />
 </div>
