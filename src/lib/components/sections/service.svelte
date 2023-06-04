@@ -1,6 +1,6 @@
 <!-- SCRIPT -->
 <script>
-	import { Heading, Card } from 'flowbite-svelte';
+	import { Heading, P, Card } from 'flowbite-svelte';
 </script>
 
 <!-- HTML -->
@@ -10,47 +10,43 @@
 	</div>
 	<div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-x-5 gap-y-5">
 		<div class="card p-4">
-			<div class="flex gap-x-3">
+			<div class="flex gap-x-3 items-center">
 				<i class="fa-solid fa-terminal" />
-				<h2 class="h3">Code</h2>
+				<Heading tag="h5">Code</Heading>
 			</div>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ea praesentium quos tenetur esse optio similique non dicta asperiores vero a laboriosam eveniet quis natus, molestiae veniam
-				cumque temporibus neque!
-			</p>
+			<div class="mt-2">
+				<P>I can create your site from nothing. Build it line by line.</P>
+			</div>
 		</div>
 
 		<div class="card p-4">
-			<div class="flex gap-x-3">
-				<i class="fa-regular fa-images" />
-				<h2 class="h3">Images</h2>
+			<div class="flex gap-x-3 items-center">
+				<i class="fa-solid fa-layer-group" />
+				<Heading tag="h5">Content management systems & Database</Heading>
 			</div>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ea praesentium quos tenetur esse optio similique non dicta asperiores vero a laboriosam eveniet quis natus, molestiae veniam
-				cumque temporibus neque!
-			</p>
+			<div class="mt-2">
+				<P>I'm well known with using wordpress, github and Azure.</P>
+			</div>
 		</div>
 
 		<div class="card p-4">
-			<div class="flex gap-x-3">
+			<div class="flex gap-x-3 items-center">
+				<i class="fa-solid fa-hands-holding-circle" />
+				<Heading tag="h5">SEO</Heading>
+			</div>
+			<div class="mt-2">
+				<P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+			</div>
+		</div>
+
+		<div class="card p-4">
+			<div class="flex gap-x-3 items-center">
 				<i class="fa-solid fa-pen-ruler" />
-				<h2 class="h3">Design</h2>
+				<Heading tag="h5">Design & prototypes</Heading>
 			</div>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ea praesentium quos tenetur esse optio similique non dicta asperiores vero a laboriosam eveniet quis natus, molestiae veniam
-				cumque temporibus neque!
-			</p>
-		</div>
-
-		<div class="card p-4">
-			<div class="flex gap-x-3">
-				<i class="fa-solid fa-list-check" />
-				<h2 class="h3">Header</h2>
+			<div class="mt-2">
+				<P>You have a design in mind, or maybe you come with blank paper. I can create and design it how ever you want.</P>
 			</div>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ea praesentium quos tenetur esse optio similique non dicta asperiores vero a laboriosam eveniet quis natus, molestiae veniam
-				cumque temporibus neque!
-			</p>
 		</div>
 	</div>
 </section>
