@@ -4,7 +4,7 @@
 </script>
 
 <!-- HTML -->
-<section class="h-fit w-full" id="process">
+<section class="w-full" id="process">
 	<div class="flex container flex-col gap-10 mx-auto">
 		<div class="flex flex-col gap-16 justify-center mx-4">
 			<div class="flex gap-16 flex-wrap lg:flex-nowrap justify-center">

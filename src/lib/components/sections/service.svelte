@@ -4,7 +4,7 @@
 </script>
 
 <!-- HTML -->
-<section class="h-fit w-full" id="services">
+<section class="w-full" id="services">
 	<div class="flex container flex-col gap-10 mx-auto">
 		<div>
 			<Heading tag="h3" customSize="text-5xl font-extrabold text-center"><i class="fa-solid fa-clipboard" /> Services</Heading>

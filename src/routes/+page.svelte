@@ -10,7 +10,7 @@
 	import Divider from '$lib/components/divider/sectionDivider.svelte';
 </script>
 
-<div class="flex flex-col gap-40 h-full">
+<div class="flex flex-col h-full">
 	<About />
 	<Process />
 	<Projects />

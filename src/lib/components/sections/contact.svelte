@@ -5,7 +5,7 @@
 </script>
 
 <!-- HTML -->
-<section class="h-fit w-full" id="contact">
+<section class="w-full" id="contact">
 	<div class="flex container flex-col gap-10 mx-auto">
 		<div class="mx-4">
 			<Heading tag="h2" customSize="text-5xl font-extrabold text-center"><i class="fa-solid fa-envelope" /> Contact</Heading>

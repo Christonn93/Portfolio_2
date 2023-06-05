@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Heading } from 'flowbite-svelte';
+	import { Heading, Spinner, Button } from 'flowbite-svelte';
 
 	import { onMount } from 'svelte';
 	let PROJECT_ID = 'xg9lz9f7';
@@ -22,39 +22,31 @@
 </script>
 
 <div>
-	{#if projects === null}
-		Loading...
-	{:else}
-		<div class="flex flex-row gap-x-6 gap-y-6 flex-wrap justify-center mx-4">
-			{#each projects as project}
-				<div class="card-wrapper h-80">
-					<div class="card-image" style="background-image: url({project.image.url})" />
-					<div class="card-info">
-						<Heading tag="h5" class="text-white">{project.title}</Heading>
-						{#if project.description}
-							<p class="prose">{project.description}</p>
+	<div class="flex flex-row gap-x-6 gap-y-6 flex-wrap justify-center mx-4">
+		{#each projects as project}
+			<div class="card-wrapper h-80">
+				<div class="card-image" style="background-image: url({project.image.url})" />
+				<div class="card-info">
+					<Heading tag="h5" class="text-white">{project.title}</Heading>
+					{#if project.description}
+						<p class="prose">{project.description}</p>
+					{/if}
+					<div class="flex gap-4">
+						{#if project.linkDemo}
+						<Button href={project.linkDemo} class="flex gap-2">
+							<span><i class="fa-solid fa-link" /></span>
+							<span> Live demo </span>
+						</Button>
 						{/if}
-						<div>
-							{#if project.linkDemo}
-								<a href={project.linkDemo} target="_blank" class="btn variant-filled-primary card-text">
-									<span>
-										<i class="fa-solid fa-link" />
-									</span>
-									<span> Live demo </span>
-								</a>
-							{/if}
-							<a href={project.linkRepo} target="_blank" class="btn variant-filled-primary card-text">
-								<span>
-									<i class="fa-brands fa-github" />
-								</span>
-								<span> Github repo </span>
-							</a>
-						</div>
+						<Button href={project.linkRepo} class="flex gap-2">
+							<span><i class="fa-brands fa-github" /></span>
+							<span> Github repo </span>
+						</Button>
 					</div>
 				</div>
-			{/each}
-		</div>
-	{/if}
+			</div>
+		{/each}
+	</div>
 </div>
 
 <style>
