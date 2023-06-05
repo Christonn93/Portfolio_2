@@ -9,7 +9,7 @@
 <Header />
 
 <!-- Main -->
-<main class="container mx-auto">
+<main>
 	<slot />
 </main>
 

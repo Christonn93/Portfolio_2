@@ -6,9 +6,11 @@
 </script>
 
 <!-- HTML -->
-<section class="h-fit flex flex-col gap-10 mx-2" id="projects">
-	<Heading tag="h2" customSize="text-5xl font-extrabold text-center">Projects</Heading>
-	<Card />
+<section class="h-fit w-full" id="projects">
+	<div class="flex container flex-col gap-10 mx-auto">
+		<Heading tag="h2" customSize="text-5xl font-extrabold text-center"><i class="fa-solid fa-layer-group" /> Projects</Heading>
+		<Card />
+	</div>
 </section>
 
 <!-- STYLE -->

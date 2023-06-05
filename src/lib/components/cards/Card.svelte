@@ -25,7 +25,7 @@
 	{#if projects === null}
 		Loading...
 	{:else}
-		<div class="flex flex-row gap-x-6 gap-y-6 flex-wrap justify-center mx-2">
+		<div class="flex flex-row gap-x-6 gap-y-6 flex-wrap justify-center mx-4">
 			{#each projects as project}
 				<div class="card-wrapper h-80">
 					<div class="card-image" style="background-image: url({project.image.url})" />

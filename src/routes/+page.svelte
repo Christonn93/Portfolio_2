@@ -2,6 +2,7 @@
 	// Sections
 	import About from '$lib/components/sections/about.svelte';
 	import Projects from '$lib/components/sections/projects.svelte';
+	import Process from "$lib/components/sections/process.svelte"
 	import Service from '$lib/components/sections/service.svelte';
 	import Contact from '$lib/components/sections/contact.svelte';
 
@@ -11,10 +12,8 @@
 
 <div class="flex flex-col gap-40 h-full">
 	<About />
-	<Divider />
+	<Process />
 	<Projects />
-	<Divider />
 	<Service />
-	<Divider />
 	<Contact />
 </div>
