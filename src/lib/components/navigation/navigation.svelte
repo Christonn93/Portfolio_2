@@ -4,7 +4,7 @@
 
 <Navbar let:hidden let:toggle>
 	<NavBrand href="/">
-		<img src="/images/logo/png/Black_logo_no_background.png" class="company_logo" alt="CT web logo" />
+		<img src="./static/images/logo/png/Black_logo_no_background.png" class="company_logo" alt="CT web logo" />
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden}>

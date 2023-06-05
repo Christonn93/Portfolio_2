@@ -1,5 +1,5 @@
 <div class="h-fit profile-image-wrapper">
-	<img src="/images/ct-image-noBg.png" alt="profile pictures" loading="lazy" />
+	<img src="./static/images/ct-image-noBg.png" alt="profile pictures" loading="lazy" />
 </div>
 
 <style>
