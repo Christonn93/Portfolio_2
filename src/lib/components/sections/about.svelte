@@ -31,13 +31,6 @@
 
 <!-- STYLE -->
 <style>
-	.norwegian_span {
-		background: #ba0c2f;
-		background: linear-gradient(to top left, #ba0c2f 0%, #00205b 50%, #ffffff 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-
 	.card {
 		border-radius: 8px;
 		border: 1px solid black;
