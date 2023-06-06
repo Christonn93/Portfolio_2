@@ -1,9 +1,10 @@
 <script>
 	import { Navbar, NavBrand, NavUl, NavHamburger } from 'flowbite-svelte';
+    import { base } from '$app/paths';
 </script>
 
 <Navbar let:hidden let:toggle>
-	<NavBrand href="/">
+	<NavBrand href="{base}/">
 		<img src="./images/logo/png/Black_logo_no_background.png" class="company_logo" alt="CT web logo" />
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
@@ -30,3 +31,4 @@
 		border-radius: 0.5rem;
 	}
 </style>
+

@@ -56,3 +56,21 @@ To publish your library to [npm](https://www.npmjs.com):
 ```bash
 npm publish
 ```
+
+<ul>
+	<li>
+		<a href="https://github.com/Christonn93/Semester-Project-2">Link to your Semester Project 2 repo.</a>
+	</li>
+	<li>
+		<a href="https://github.com/Christonn93/store-online">Link to your JavaScript Frameworks CA repo.</a>
+	</li>
+	<li>
+		<a href="https://github.com/Christonn93/holidaze">Link to your Project Exam 2 repo.</a>
+	</li>
+	<li>
+		<a href="https://github.com/Christonn93">Link to your personal GitHub profile.</a>
+	</li>
+	<li>
+		<a href="https://christonn93.github.io/Portfolio_2/">Link to your personal portfolio webpage.</a>
+	</li>
+</ul>
