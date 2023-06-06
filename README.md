@@ -1,76 +1,81 @@
-# create-svelte
+# Personal Portfolio
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<img src="./static/images/portfolio-image.png">
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+[Live site](https://christopher-tonnesland-portfolio.netlify.app/)
 
-## Creating a project
+## Table of context
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Introduction](#introduction)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Installation Steps](#installation-steps)
+  - [Available Scripts](#available-scripts)
+
+- [Author](#author)
+
+## Introduction
+
+
+## Installation
+
+This guide will help you get started with running the This project locally.
+Please follow the steps below:
+
+#### Prerequisites
+
+Before you begin, ensure that you have the following software installed on your machine:
+
+- Node.js (version 14 or later)
+- npm (Node Package Manager)
+
+#### Installation Steps
+
+1. Clone the repository to your local machine using Git or download the source code as a ZIP file and extract it.
+
+2. Open a terminal or command prompt and navigate to the project directory.
+
+3. Install the project dependencies by running the following command:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
 ```
 
-## Developing
+This command will install all the dependencies specified in the package.json file.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+4. Once the dependencies are installed and the environment variables are set, you can start the development server by running the following command:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+This command will start the development server and the application will be accessible at <http://localhost:5173/>.
 
-## Building
+5. Open your web browser and visit <http://localhost:5173/> to see the running React application.
 
-To build your library:
+#### Available Scripts
 
-```bash
-npm run package
-```
+In the project directory, you can use the following npm scripts:
 
-To create a production version of your showcase app:
+- `npm run dev`: "vite dev"
+- `npm run build`: "vite build && npm run package"
+- `npm run preview`: "vite preview"
+- `npm run package`: "svelte-kit sync && svelte-package && publint"
+- `npm run prepublishOnly`: "npm run package"
+- `npm run check`: "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json"
+- `npm run check:watch`: "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+- `npm run lint`: "prettier --plugin-search-dir . --check . && eslint ."
+- `npm run format`: "prettier --plugin-search-dir . --write ."
+- `npm run deploy`: "npm run build && npx gh-pages -d build -t true"
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
+That's it! You have successfully installed and started the React project locally. You can now explore and modify the code according to your needs.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+If you encounter any issues during the installation process, please refer to the project's documentation or seek support from the project's maintainers.
 
-## Publishing
+## Author
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
-
-<ul>
-	<li>
-		<a href="https://github.com/Christonn93/Semester-Project-2">Link to your Semester Project 2 repo.</a>
-	</li>
-	<li>
-		<a href="https://github.com/Christonn93/store-online">Link to your JavaScript Frameworks CA repo.</a>
-	</li>
-	<li>
-		<a href="https://github.com/Christonn93/holidaze">Link to your Project Exam 2 repo.</a>
-	</li>
-	<li>
-		<a href="https://github.com/Christonn93">Link to your personal GitHub profile.</a>
-	</li>
-	<li>
-		<a href="https://christonn93.github.io/Portfolio_2/">Link to your personal portfolio webpage.</a>
-	</li>
-</ul>
+<div style="display: flex; gap: 20px; align-items: center;">
+<img src="https://i.ibb.co/wKLknRh/153684720-10158795395525490-149819903027147096-n.jpg" alt="Author" style="width:150px;height:150px; border-radius: 50%;">
+<h3>Christopher Tønnesland</h3>
+</div>
