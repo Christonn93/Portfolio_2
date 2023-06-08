@@ -1,5 +1,5 @@
 <script>
-	import { Navbar, NavBrand, NavUl, NavHamburger } from 'flowbite-svelte';
+	import { Navbar, NavBrand, NavUl, NavHamburger, Button } from 'flowbite-svelte';
     import { base } from '$app/paths';
 </script>
 
@@ -13,7 +13,7 @@
 		<a href="#about" class="navLink">About</a>
 		<a href="#projects" class="navLink">Projects</a>
 		<a href="#services" class="navLink">Services</a>
-		<a href="#contact" class="navLink navLinkBtn bg-sky-50">Contact</a>
+		<Button href="#contact">Contact</Button> 
 	</NavUl>
 </Navbar>
 
@@ -23,12 +23,6 @@
 		padding-bottom: 0.625rem;
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
-	}
-
-	.navLinkBtn {
-		border-color: rgba(55 65 81, 0.2);
-		border-width: 1px;
-		border-radius: 0.5rem;
 	}
 </style>
 
