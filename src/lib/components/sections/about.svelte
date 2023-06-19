@@ -3,7 +3,6 @@
 	import { Button, Heading, P, Span } from 'flowbite-svelte';
 
 	import ProfileImage from '$lib/components/image/profileImage.svelte';
-	import WorkTimeline from '$lib/components/timeline/workTimeline.svelte';
 </script>
 
 <!-- HTML -->
@@ -19,7 +18,7 @@
 					I <Span class="gradient-text">build</Span> custom website solutions that help your business grow
 				</Heading>
 				<div class="flex justify-end p-5">
-					<Button href="/file/cv.pdf" download="CV">Download CV</Button>
+					<Button href="/file/cv-christopher.pdf" download="CV">Download CV</Button>
 				</div>
 			</div>
 			<div>
